@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body{
+    margin:0; 
+    padding: 0;
+    background-image: url(../images/bg1.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.top-heading{
+    margin-top: 30px;
+    background-color: rgb(56,163,198);
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width: 1000px;
+
+    
+}
+
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: left;
+}
+
+.home h1{
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(245, 248, 250);
+    transform: scale(1, 1.8);
+}
+
+.home p{
+    font-size: 1.8rem;
+    color:#393838;
+    padding:3rem 0;
+    width:70rem;
+    line-height: 2;
+}
+
+
+div.header button{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+div.header button:hover{
+    color: rgb(255, 0, 0);
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.subject-cards{
+    padding: 75px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 280px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.subject-cards a{
+    margin-left: 100px;
+}
+
+
+.subject-cards .ol{
+    color: rgb(0, 0, 0);
+    background-color: rgb(62, 139, 233);
+    padding: 50px 50px;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+
+.subject-cards .ol:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 139, 233);
+    padding: 50px 50px;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 40px;
+    border: 3px solid black;
+}
+
+.subject-cards .al{
+    color: rgb(0, 0, 0);
+    background-color: rgb(64, 185, 125);
+    padding: 50px 50px;
+    text-decoration: none;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+
+.subject-cards .al:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 185, 125);
+    padding: 50px 50px;
+    text-decoration: none;
+    margin-right: 40px;
+    border: 3px solid black;
+}
