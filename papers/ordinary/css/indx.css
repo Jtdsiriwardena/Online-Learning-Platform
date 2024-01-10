@@ -1,0 +1,142 @@
+
+*{
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(200, 223, 237);
+  font-family: 'Poppins';
+}
+
+.main{
+  position: relative;
+}
+
+.area{
+  margin: auto;
+  width: 800px;
+  z-index: 9;
+
+}
+
+.area form{
+  padding: 20px;
+  background: rgb(246, 242, 242);
+  border-radius: 15px;
+}
+
+.area form h1{
+  text-align: center;
+  margin-bottom: 45px;
+  color: #165478;
+  font-size: 30px;
+}
+
+.details label{
+  font-size: 20px;
+}
+
+.area form .details-values{
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid rgb(82, 82, 82);
+  margin: 12px 0 20px 0;
+  padding: 0 10px;
+}
+
+.area form .submit{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 40px;
+  background: rgb(11, 106, 184);
+  font: 16px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 20px;
+}
+
+.area form .submit:hover{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 40px;
+  background: rgb(255, 255, 255);
+  font: 16px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 20px;
+}
+
+.table-section{
+  position: absolute;
+}
+
+  table {
+    width: 1200px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    margin-left: 150px;
+  }
+
+  th{
+    background-color: rgb(56, 130, 172);
+    color: white;
+  }
+  
+  th,td {
+    height: 50px;
+    border: 1px solid rgb(110, 110, 110);
+  }
+
+  tr{
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+td a:nth-child(1) {
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 10px 20px;
+        color: white;
+        background-color: rgb(51, 124, 167);
+}
+
+td a:nth-child(1):hover {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: rgb(65, 148, 199);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(65, 148, 199);
+}
+
+td a:nth-child(2) {
+
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(233, 25, 25);
+}
+
+td a:nth-child(2):hover {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: rgb(233, 25, 25);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(233, 25, 25);
+}
+
+
+
+
+
+
