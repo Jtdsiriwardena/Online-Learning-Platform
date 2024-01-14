@@ -1,0 +1,113 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(7.jpg);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  margin: 5px;
+}
+
+
+.top-header{
+  color: rgb(7, 56, 101);
+  text-align: center;
+}
+
+.main{
+  background-color: #f9f3f3;
+  border-radius: 20px;
+  width: 750px;
+  text-align: center;
+  border: 2px solid black;
+
+}
+
+
+.area{
+  padding: 20px;
+
+}
+
+.answers{
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+ul{
+  list-style-type: none;
+  padding: 5px;
+}
+
+ul li{
+  background-color: rgb(71, 168, 206);
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+ul li:hover{
+  background-color: rgb(218, 241, 252);
+  font-size: 30px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  color: #000000;
+}
+
+ul li label{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+ul li label:hover{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+button{
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid rgb(0, 0, 0);
+  display: block;
+  width: 100px;
+  margin-bottom: 30px;
+  margin-left: 325px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+button:hover{
+  background-color: #316c91;
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+a{
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid rgb(0, 0, 0);
+  display: block;
+  width: 100px;
+  margin-bottom: 30px;
+  margin-left: 325px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #34a361;
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  text-decoration: none;
+}
+
