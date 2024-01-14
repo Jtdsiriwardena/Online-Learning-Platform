@@ -11,7 +11,7 @@ Online learning platform for O/L and A/L IT students in Sri Lanka
 
 ### Backend 
 
-PHP
+- PHP
 
 ### Database
 
